@@ -250,13 +250,13 @@
 //     constructor(){
 //         this.numTotext = function(number){
 //             let oneToNine = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
-//             let tenToTwenty = ['Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eightteen', 'Nineteen'];
+//             let tenToTwenty = ['Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eightteen', 'Nineteen', 'Twenty];
 //             let twentyToNinty = ['Twenty', 'Thirty', 'Fourty', 'Fivety', 'Sixty', 'Seventy', 'Eightty', 'Ninety'];
 
 //             if (number > 0 && number <= 9){
 //                 return oneToNine[number - 1];
 //             }
-//             else if (number >= 10 && number < 20){
+//             else if (number >= 10 && number <= 20){
 //                 let str = `${number}`;
 //                 str = str.split('');
 //                 let secondDigit = str[1];
