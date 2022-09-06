@@ -1,0 +1,126 @@
+/* .container{
+    padding: 8px 22px;
+    border: none;
+    border-radius: 8px;
+    color:white;
+    background-color: rgb(70, 139, 0);
+    width: 150px;
+    text-align: center;
+}
+
+.removeContainer{
+    width: 450px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 146, 146);
+    padding: 8px 24px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 200px;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */ 
+
+
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    padding: 8px 24px 8px 48px;
+    background-color: #eee;
+    font-size: 24px;
+    transition: all ease 0.3s;
+}
+
+ul li:nth-child(odd){
+    background-color: #f9f9f9;
+}
+
+ul li:hover{
+    background-color: #ddd;
+}
+
+ul li.checked{
+    background-color: #888;
+    color: white;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    content: '';
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.close{
+    
+    right: 0;
+    top: 0;
+    padding: 8px 16px;
+}
+
+.close:hover{
+    background-color: #f44336;
+    
+    color: white;
+    text-align: center;
+}
+
+.container{
+    background-color: greenyellow;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input{
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+    padding: 15px;
+    float: left;
+    font-size: 16px;
+}
+
+.addBtn{
+    padding: 10px;
+    width: 20%;
+    background: #d9d9d9;
+    border: none;
+    color: black;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all ease 0.3s;
+}
+
+.addBtn:hover{
+    background-color: #bbb;
+}
