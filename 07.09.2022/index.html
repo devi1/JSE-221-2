@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- <div id="divForm">
+        <form name="someform">
+            <input type="button" name="clcikButton" value="Click me!"
+            onClick="clickButton()">
+        </form>
+    </div> --> <!-- Мы получаем значение и имя нашего инпута кликая на него  -->
+
+
+    <!-- <form name="switchState">
+        Check it!<input type="checkbox" name="checkbox">
+        You can easy change state of this shit!
+        <input type="button" value="Chage it!"
+        onclick="chageStateOfCheckbox();">
+    </form> --> <!-- Меняем состояние флажка -->
+
+    <!-- <form name="radioSwitch">
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        You can easily change state of this shit!
+
+        <input type="button" value="Chage statement" onclick="clickButton();">
+    </form> --> <!-- Меняем состояние переключателя -->
+
+    <!-- <form name="selects">
+        <select name="items" size="5">
+            <option value="one" selected>One</option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+            <option value="four">Four</option>
+            <option value="five">Five</option>
+        </select>
+        <input type="button" value="Choose Four" onclick="selects.items.options[3].selected = true;">
+        <input type="button" value="Inspect" onclick="inpsectValue();">
+    </form> -->
+
+    <!-- <form name="tables">
+        <table>
+            <tr>
+                <td>
+                    Surname
+                </td>
+                <td>
+                    <input type="text" name="surname" placeholder="Surname" size="20" 
+                    onBlur="this.value=this.value.toUpperCase()" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Name
+                </td>
+                <td>
+                    <input type="text" name="name" placeholder="Name" size="20" 
+                    onBlur="this.value=this.value.toUpperCase()" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Age
+                </td>
+                <td>
+                    <input type="text" name="age" placeholder="Age" size="3" value="18">
+                </td>
+            </tr>
+        </table>
+
+        <input type="button" value="Show info" onclick="showAllInfo();">
+        <input type="reset" value="DELETE ALL">
+    </form> -->
+    
+    <!-- <form name = "test">
+        <label>
+            <input type="radio" name="dynamic" value="dynamical"
+            onclick="if(this.checked) radioEdit(this.form, this.value);">First type
+        </label>
+        <label>
+            <input type="radio" name="dynamic" value="statical"
+            onclick="if(this.checked) radioEdit(this.form, this.value);">Second type
+        </label>
+
+        <textarea name="letter" cols="40" rows="5"></textarea>
+        <input type="button" value="Check" onclick="alert(document.test.letter.value);">
+        <input type="reset" value="DELETE">
+    </form> -->
+
+    <!-- <form name = "test">
+        <table>
+            <tr>
+                <td>
+                    Login or id
+                </td>
+                <td>
+                    <input type="text" name="id" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password
+                </td>
+                <td>
+                    <input type="password" name="pass" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Repeat password
+                </td>
+                <td>
+                    <input type="password" name="pass1" size="20">
+                </td>
+            </tr>
+        </table>
+
+        <input type="button" value="Login" onclick="logIn();">
+        <input type="reset" value="Reset">
+    </form> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
