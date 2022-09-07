@@ -44,11 +44,12 @@
 //     }
 // }
 
-// function logIn(){
-//     if(document.test.pass.value == document.test.pass1.value){
-//         alert("welcome: " + document.test.id.value + "\n Your pass is: " + document.test.pass.value);
-//     }
-//     else{
-//         alert("Try one more time");
-//     }
-// }
+function logIn(){
+    if(document.test.pass.value == document.test.pass1.value){
+        //alert("welcome: " + document.test.id.value + "\n Your pass is: " + document.test.pass.value);
+        alert(`Welcome: ${document.test.id.value}  Your pass is: ${document.test.pass.value}`);
+    }
+    else{
+        alert("Try one more time");
+    }
+}
