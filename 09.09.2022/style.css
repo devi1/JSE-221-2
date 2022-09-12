@@ -1,0 +1,38 @@
+/* .menu ul{
+    display: none;
+}
+
+.menu.open ul{
+    display: block;
+} */
+
+.slider1{
+    position: relative;
+    width: 400px;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    background-color: rgb(202, 200, 200);
+}
+
+.slides{
+    width: 390px;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.slides ul{
+    height: 130px;
+    width: 9999px;
+    list-style: none;
+    transition: margin-left 250ms;
+}
+
+.slides li{
+    display: inline-block;
+}
+
+img{
+    width:130px;
+    height: 130px;
+    display: block;
+}
