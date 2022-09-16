@@ -31,29 +31,31 @@
 // ctx.beginPath();
 // ctx.arc(95, 50, 40, 0, Math.PI * 2);
 
-let str = `1 tasdasd
-2 from asdasd 8
-3 to asdasd 99`
-
 // let reg = /^[a-zA-z]+$/gmi;
 
 // alert(str.match([reg]));
 
 // let str = "Lorem ipsum dolor sit amet, consectetur  adipiscing elit";
 
-let text = /\d/;
+// let text = /\d/;
 
-let re = new RegExp(text, 'gmi');
+// let re = new RegExp(text, 'gmi');
 
-let res = str.match(re);
+// let res = str.match(re);
 
-for(let i = 0; i < str.length; i++) {
-    if(res!= null){
-        str.replace(/\d/gmi, "")
-    }
-}
-alert(res);
+// for(let i = 0; i < str.length; i++) {
+    //     if(res!= null){
+        //         str.replace(/\d/gmi, "")
+        //     }
+        // }
+        // alert(res);
+        
+        // alert(res);
 
-alert(res);
+// alert(str)
 
-alert(str)
+let str = `1 tasdasd
+2 from asdasd 8
+3 to asdasd 99`
+
+// Домашние задание такое. Нужно избавиться от цифр в этой строке
