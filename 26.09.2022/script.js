@@ -107,3 +107,4 @@
 //     document.getElementById("change").innerHTML = table;
 // }
 
+// Реализовать таблицу с 4 столбцами. Взять данные с XML файла
